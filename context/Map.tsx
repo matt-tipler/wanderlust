@@ -23,9 +23,9 @@ type MapContextType = {
 };
 
 const DEFAULT_VIEWPORT = {
-  latitude: 49.316666,
-  longitude: -123.066666,
-  zoom: 10,
+  latitude: 50.503632,
+  longitude: -4.652498,
+  zoom: 8,
 };
 
 const MapContext = createContext<MapContextType>({
