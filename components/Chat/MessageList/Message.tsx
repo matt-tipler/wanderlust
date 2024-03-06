@@ -13,11 +13,9 @@ export default function MessageComponent({ message, isLast }: Props) {
   const [htmlContent, setHtmlContent] = useState<string[]>([]);
 
   useEffect(() => {
-    const convertedContent: string[] = message.content.map((item) =>
-      // Use marked to convert Markdown to HTML and ensure the result is treated as a string
+    const convertedContent: any = message.content.map((item) =>
       marked(item.text?.value ?? '')
     );
-
     setHtmlContent(convertedContent);
   }, [message.content]);
 
