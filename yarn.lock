@@ -11212,6 +11212,7 @@ __metadata:
     jest-environment-jsdom: "npm:^29.7.0"
     mapbox-gl: "npm:^2.15.0"
     maplibre-gl: "npm:^3.5.2"
+    marked: "npm:^12.0.1"
     next: "npm:14.0.1"
     openai: "npm:^4.17.0"
     postcss: "npm:^8.4.31"
@@ -11305,6 +11306,15 @@ __metadata:
   peerDependencies:
     react: ">= 0.14.0"
   checksum: 191b9a9defeed02e12dd340cebf279f577266dac7b34574fa44ce4d64ee8536f9967d455b8303c853f84413feb473118290a6160d8221eeaf3b9e4961b8980e3
+  languageName: node
+  linkType: hard
+
+"marked@npm:^12.0.1":
+  version: 12.0.1
+  resolution: "marked@npm:12.0.1"
+  bin:
+    marked: bin/marked.js
+  checksum: e5c2a4da12dc59351e3e8acd0ca36c11a49f9a538bd0c3bda2dc3c71868f168dd678907184308e6f458eafad0c14146d01841b0644b6ccfcab920c73b814f8d8
   languageName: node
   linkType: hard
 
