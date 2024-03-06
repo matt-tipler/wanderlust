@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Text, Group, Box } from '@mantine/core';
 import { IconCompass } from '@tabler/icons-react';
-import { Message as MessageType } from '@/types/openai';
 import { marked } from 'marked'; // Corrected import statement
+import { Message as MessageType } from '@/types/openai';
 
 type Props = {
   message: MessageType;
